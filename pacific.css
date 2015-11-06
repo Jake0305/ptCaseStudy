@@ -44,7 +44,7 @@ h1 { margin-bottom: 0;
 h2 {color: #3399CC;
     text-shadow: 1px 1px 1px #666666;
     font-family: "Georgia", sans-serif; }
-#resort {color: #5C7FA3;
+.resort {color: #5C7FA3;
     font-weight: bold;}
 h3 {color: #000033;
     font-family: "Georgia", sans-serif; }
@@ -67,7 +67,14 @@ main {padding-top: 1px; padding-left: 30px; padding-right: 20px; padding-bottom:
     margin-left: 190px;
 background: #FFFFFF }
 #gallery {height: 200px;
-    position: relative;
+    position: relative;}
+#gallery img {
 padding: 0px 0px 0px 0px; 
 float: none;}
+#placeholder { position: absolute;
+    top: 15px; left: 320px; opacity: .25;}
 #gallery a:hover span {display: block; position: relative; top: 15px; left: 320px; text-align: center;}
+#gallery span {display: none;}
+#gallery li {display: inline; float: left; padding: 10px;}
+#gallery ul {width:250px; list-style-type: none;}
+
